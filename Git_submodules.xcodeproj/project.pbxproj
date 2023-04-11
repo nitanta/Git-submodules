@@ -22,6 +22,7 @@
 		501872D929E4E3AF00701116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		501872DC29E4E3AF00701116 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		501872E929E4E94700701116 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		502F830C29E4FAC800B55BBD /* Subcomponents */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Subcomponents; path = ../Subcomponents; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +40,7 @@
 		501872C929E4E3AD00701116 = {
 			isa = PBXGroup;
 			children = (
+				502F830C29E4FAC800B55BBD /* Subcomponents */,
 				501872E929E4E94700701116 /* README.md */,
 				501872D429E4E3AD00701116 /* Git_submodules */,
 				501872D329E4E3AD00701116 /* Products */,
