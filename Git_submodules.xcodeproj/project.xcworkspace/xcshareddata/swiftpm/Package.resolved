@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "subcomponents",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:nitanta/Subcomponents.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "21ef1666476009b118c7555f9ff942b43a1e3cb2"
+      }
+    }
+  ],
+  "version" : 2
+}
