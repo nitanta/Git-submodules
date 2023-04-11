@@ -6,9 +6,15 @@
 //
 
 import SwiftUI
+import SubComponents
 
 @main
 struct Git_submodulesApp: App {
+    
+    init() {
+        SubmoduleFont.mornal
+        SubmoduleColor.white
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()

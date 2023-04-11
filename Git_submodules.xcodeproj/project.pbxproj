@@ -11,6 +11,8 @@
 		501872D829E4E3AD00701116 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501872D729E4E3AD00701116 /* ContentView.swift */; };
 		501872DA29E4E3AF00701116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501872D929E4E3AF00701116 /* Assets.xcassets */; };
 		501872DD29E4E3AF00701116 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501872DC29E4E3AF00701116 /* Preview Assets.xcassets */; };
+		501872E829E4E69700701116 /* SubComponents in Frameworks */ = {isa = PBXBuildFile; productRef = 501872E729E4E69700701116 /* SubComponents */; };
+		501872EA29E4E94800701116 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 501872E929E4E94700701116 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		501872D729E4E3AD00701116 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		501872D929E4E3AF00701116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		501872DC29E4E3AF00701116 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		501872E529E4E5A500701116 /* SubComponents */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SubComponents; path = ../SubComponents; sourceTree = "<group>"; };
+		501872E929E4E94700701116 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501872E829E4E69700701116 /* SubComponents in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +40,11 @@
 		501872C929E4E3AD00701116 = {
 			isa = PBXGroup;
 			children = (
+				501872E929E4E94700701116 /* README.md */,
+				501872E529E4E5A500701116 /* SubComponents */,
 				501872D429E4E3AD00701116 /* Git_submodules */,
 				501872D329E4E3AD00701116 /* Products */,
+				501872E629E4E69700701116 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +75,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		501872E629E4E69700701116 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +98,9 @@
 			dependencies = (
 			);
 			name = Git_submodules;
+			packageProductDependencies = (
+				501872E729E4E69700701116 /* SubComponents */,
+			);
 			productName = Git_submodules;
 			productReference = 501872D229E4E3AD00701116 /* Git_submodules.app */;
 			productType = "com.apple.product-type.application";
@@ -125,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501872EA29E4E94800701116 /* README.md in Resources */,
 				501872DD29E4E3AF00701116 /* Preview Assets.xcassets in Resources */,
 				501872DA29E4E3AF00701116 /* Assets.xcassets in Resources */,
 			);
@@ -339,6 +358,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		501872E729E4E69700701116 /* SubComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SubComponents;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 501872CA29E4E3AD00701116 /* Project object */;
 }
